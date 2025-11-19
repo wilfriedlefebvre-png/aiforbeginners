@@ -246,6 +246,10 @@ export default function AIBeginnersPage() {
                 <span className="font-semibold">$300</span>
               </li>
               <li className="flex justify-between gap-4">
+                <span>Group Session (5 persons min.)</span>
+                <span className="font-semibold">$20/person</span>
+              </li>
+              <li className="flex justify-between gap-4">
                 <span>Retirement Community Workshop (Aliso Viejo area)</span>
                 <span className="font-semibold">Contact for quote</span>
               </li>
