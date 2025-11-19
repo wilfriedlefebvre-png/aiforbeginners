@@ -1,0 +1,437 @@
+import React from "react";
+
+export default function AIForseniorsPage() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-slate-50 relative">
+      {/* Background */}
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900" />
+
+      <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-[radial-gradient(circle_at_top,_#38bdf8_0,_transparent_60%)] opacity-40" />
+
+      <div className="max-w-6xl mx-auto px-4 py-10 sm:py-16">
+        {/* NAV / TOP LINKS */}
+        <header className="flex items-center justify-between gap-4 mb-8 text-sm text-slate-300">
+          <div className="font-semibold tracking-tight">
+            AI for Beginners & Seniors
+          </div>
+          <nav className="hidden sm:flex gap-4">
+            <a href="#about" className="hover:text-sky-300">
+              Who I am
+            </a>
+            <a href="#services" className="hover:text-sky-300">
+              Services
+            </a>
+            <a href="#contact" className="hover:text-sky-300">
+              Contact
+            </a>
+          </nav>
+        </header>
+
+        {/* HERO */}
+        <section className="grid gap-10 lg:grid-cols-[3fr,2fr] items-center">
+          <div>
+            <span className="inline-flex items-center rounded-full border border-sky-400/40 bg-slate-900/60 px-3 py-1 text-xs font-medium text-sky-200 mb-4">
+              👵🧠 AI Lessons for Seniors — Aliso Viejo, CA
+            </span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight">
+              Learn AI in{" "}
+              <span className="text-sky-300">simple, everyday language</span>.
+            </h1>
+            <p className="mt-4 text-slate-200 max-w-xl">
+              I help complete beginners and seniors in Aliso Viejo and South
+              Orange County understand and use AI tools like ChatGPT safely and
+              confidently — at your pace, with real-life examples, on your own
+              phone, tablet, or computer.
+            </p>
+
+            <div className="mt-6 flex flex-wrap gap-4">
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center rounded-xl bg-sky-500 px-6 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-500/30 hover:bg-sky-400 transition"
+              >
+                Book a free intro call
+              </a>
+              <a
+                href="#about"
+                className="inline-flex items-center justify-center rounded-xl border border-slate-600 px-6 py-3 text-sm font-semibold text-slate-50 hover:border-sky-400 hover:text-sky-200 transition"
+              >
+                Who I am
+              </a>
+            </div>
+
+            <p className="mt-4 text-xs text-slate-400">
+              • In-person lessons in Aliso Viejo & nearby cities • Patient,
+              step-by-step teaching
+            </p>
+          </div>
+
+          {/* Hero card */}
+          <div className="rounded-3xl border border-slate-700/70 bg-slate-900/60 p-6 shadow-2xl shadow-black/40">
+            <h2 className="text-lg font-semibold mb-2">
+              What you&apos;ll be able to do
+            </h2>
+            <p className="text-sm text-slate-300 mb-4">
+              After a few sessions, you (or your parent / grandparent) will feel
+              more confident with technology and AI.
+            </p>
+            <ul className="space-y-3 text-sm text-slate-200">
+              <li className="flex gap-2">
+                <span className="mt-1 text-sky-300">✓</span>
+                Use AI to write emails, letters and messages
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-1 text-sky-300">✓</span>
+                Get help with translations, recipes, hobbies and travel
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-1 text-sky-300">✓</span>
+                Learn how to avoid scams and recognize fake messages
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-1 text-sky-300">✓</span>
+                Have your own &quot;AI assistant&quot; for daily life
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* WHO I AM */}
+        <section id="about" className="mt-16 sm:mt-20 grid gap-8 lg:grid-cols-[2fr,3fr] items-start">
+          <div className="rounded-3xl overflow-hidden border border-slate-700 bg-slate-900/60">
+            {/* Put your "seniors having fun" image as a CSS background or <img> */}
+            <div
+              className="h-56 sm:h-64 w-full bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/background.png')",
+              }}
+            />
+          </div>
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-3">
+              Who I am
+            </h2>
+            <p className="text-sm text-slate-200 mb-3">
+              Hi, I&apos;m Wilfried — a French husband and dad living in Aliso
+              Viejo. I&apos;ve spent over 20 years working in hospitality and
+              customer service, always focused on making people feel comfortable
+              and cared for.
+            </p>
+            <p className="text-sm text-slate-200 mb-3">
+              I fell in love with AI because it can make everyday life easier:
+              writing messages, organizing information, translating, planning
+              trips, and more. I know technology can feel intimidating,
+              especially when everything changes so fast — so my job is to slow
+              everything down and explain it in clear, friendly language.
+            </p>
+            <p className="text-sm text-slate-200 mb-3">
+              I specialize in helping seniors and true beginners. I&apos;m
+              patient, I repeat as many times as needed, and I always adapt to
+              the person in front of me. We work directly on your own phone,
+              tablet, or laptop so that you feel confident using it on your own.
+            </p>
+            <p className="text-sm text-slate-300">
+              I currently offer <span className="font-semibold">in-person</span>{" "}
+              sessions in Aliso Viejo and nearby cities (Laguna Niguel, Laguna
+              Hills, Mission Viejo, etc.). If you&apos;re a bit farther, feel
+              free to reach out — we may be able to arrange something or do a
+              remote session.
+            </p>
+          </div>
+        </section>
+
+        {/* AI FOR BEGINNERS SECTION */}
+        <section id="ai-beginners" className="mt-16 sm:mt-20">
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <h2 className="text-2xl sm:text-3xl font-semibold">
+              AI for Beginners — start from zero, no problem
+            </h2>
+            <span className="text-xs uppercase tracking-[0.2em] text-slate-400">
+              Step by step • No jargon
+            </span>
+          </div>
+
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                1. Understand what AI is
+              </h3>
+              <p className="text-sm text-slate-300">
+                Simple explanations of what AI does, what it can&apos;t do, and
+                how it fits into everyday life. No technical background needed.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                2. Learn by doing, not by theory
+              </h3>
+              <p className="text-sm text-slate-300">
+                We practice directly inside tools like ChatGPT so you can see
+                results in real time: writing, planning, translating, and more.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                3. Personalized cheat sheets
+              </h3>
+              <p className="text-sm text-slate-300">
+                You get simple printed or PDF guides with example questions you
+                can ask, tailored to your daily life and interests.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* SERVICES FOR SENIORS */}
+        <section id="services" className="mt-16 sm:mt-20">
+          <h2 className="text-2xl sm:text-3xl font-semibold">
+            Services I provide for seniors & families
+          </h2>
+          <p className="mt-3 text-slate-200 max-w-2xl">
+            I specialize in helping seniors, retirees, and their families use AI
+            safely. Sessions are patient, friendly, and adapted to each person&apos;s
+            comfort with technology.
+          </p>
+
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                👤 1-on-1 AI Coaching (Senior Friendly)
+              </h3>
+              <ul className="text-sm text-slate-300 space-y-2">
+                <li>• Step-by-step introduction to AI tools like ChatGPT</li>
+                <li>• Help using AI for letters, recipes, hobbies or travel</li>
+                <li>• Written notes so nothing gets forgotten after the session</li>
+              </ul>
+              <p className="mt-3 text-sm text-slate-400">
+                In-person in Aliso Viejo & nearby cities.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                👨‍👩‍👦 Family & Caregiver Support
+              </h3>
+              <ul className="text-sm text-slate-300 space-y-2">
+                <li>• Show you how AI can help organize medications & notes</li>
+                <li>• Create reminders, checklists and schedules with AI</li>
+                <li>• Guidance on safe use of AI and avoiding misinformation</li>
+              </ul>
+            </div>
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                🏡 On-Site Group Classes (Retirement communities)
+              </h3>
+              <ul className="text-sm text-slate-300 space-y-2">
+                <li>• 60–90 minute workshops tailored to your residents</li>
+                <li>• Live demonstrations with projector/TV</li>
+                <li>• Printed handouts for everyone</li>
+              </ul>
+              <p className="mt-3 text-sm text-slate-400">
+                Available in Aliso Viejo and surrounding areas.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
+              <h3 className="font-semibold text-lg mb-2">
+                🔐 Online Safety & Scam Awareness
+              </h3>
+              <ul className="text-sm text-slate-300 space-y-2">
+                <li>• How to spot fake emails, texts and websites</li>
+                <li>• How AI can be misused — and how to stay safe</li>
+                <li>• Easy rules to follow before clicking any link</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* HOW IT WORKS + PRICING */}
+        <section className="mt-16 sm:mt-20 grid gap-10 lg:grid-cols-[3fr,2fr] items-start">
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-semibold">
+              How it works
+            </h2>
+            <ol className="mt-4 space-y-4 text-slate-200 text-sm">
+              <li>
+                <span className="font-semibold text-sky-300">1. Free call</span>
+                <br />
+                We discuss who the lessons are for and what you&apos;d like AI
+                to help with.
+              </li>
+              <li>
+                <span className="font-semibold text-sky-300">
+                  2. Personalized plan
+                </span>
+                <br />
+                I create a simple plan: number of sessions, topics, and format.
+              </li>
+              <li>
+                <span className="font-semibold text-sky-300">
+                  3. Gentle, practical lessons
+                </span>
+                <br />
+                We learn by doing. I move at the learner&apos;s pace and repeat
+                as needed — no pressure, no judgment.
+              </li>
+              <li>
+                <span className="font-semibold text-sky-300">
+                  4. Follow-up & support
+                </span>
+                <br />
+                After each session, you receive a summary and example prompts
+                you can reuse anytime.
+              </li>
+            </ol>
+          </div>
+
+          <div className="rounded-2xl border border-sky-500/60 bg-slate-900/80 p-6 shadow-xl shadow-sky-500/30">
+            <h3 className="text-lg font-semibold mb-2">Pricing (In-Person – Aliso Viejo)</h3>
+            <p className="text-sm text-slate-200 mb-4">
+              All sessions are in-person and tailored to each learner. I come directly to you in Aliso Viejo.
+            </p>
+            <ul className="space-y-3 text-sm text-slate-100">
+              <li className="flex justify-between gap-4">
+                <span>1-on-1 Senior Session (60 min)</span>
+                <span className="font-semibold">$120</span>
+              </li>
+              <li className="flex justify-between gap-4">
+                <span>3-Session Beginner Pack</span>
+                <span className="font-semibold">$300</span>
+              </li>
+              <li className="flex justify-between gap-4">
+                <span>Group Session (5 persons min.)</span>
+                <span className="font-semibold">$20/person</span>
+              </li>
+              <li className="flex justify-between gap-4">
+                <span>Retirement Community Workshop (Aliso Viejo area)</span>
+                <span className="font-semibold">Contact for quote</span>
+              </li>
+            </ul>
+            <p className="mt-4 text-xs text-slate-400">
+              Travel fees may apply outside Aliso Viejo.
+            </p>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="mt-16 sm:mt-20">
+          <h2 className="text-2xl sm:text-3xl font-semibold">FAQ</h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-2 text-sm text-slate-200">
+            <div>
+              <h3 className="font-semibold mb-1">
+                Do we need any experience with computers?
+              </h3>
+              <p className="text-slate-300">
+                No. I regularly work with people who are brand new to
+                smartphones, tablets or AI. We go slowly, and I can help with
+                basic device setup if needed.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-1">
+                Is this safe for seniors to use?
+              </h3>
+              <p className="text-slate-300">
+                Yes — when used correctly. I teach simple rules to stay safe:
+                what not to share, how to spot scams, and when to ask a family
+                member for help.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-1">
+                Can you come to our retirement community?
+              </h3>
+              <p className="text-slate-300">
+                Yes, within Aliso Viejo and surrounding areas. I offer on-site
+                workshops and can coordinate with your activity director.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-1">
+                Can family members join the sessions?
+              </h3>
+              <p className="text-slate-300">
+                Absolutely. Many families like to join the first session to
+                learn together and understand how AI can support everyone.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* CONTACT */}
+        <section
+          id="contact"
+          className="mt-16 sm:mt-20 mb-10 rounded-3xl border border-sky-500/50 bg-slate-900/80 p-6 sm:p-8 shadow-xl shadow-sky-500/25"
+        >
+          <div className="grid gap-8 md:grid-cols-[3fr,2fr] items-start">
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-semibold">
+                Ready to schedule an in-person session?
+              </h2>
+              <p className="mt-3 text-sm text-slate-200 max-w-xl">
+                All sessions take place in person in Aliso Viejo. Send me a message with
+                who the lessons are for, and I&apos;ll reply with available times.
+              </p>
+
+              <form className="mt-6 space-y-4">
+                <div>
+                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    className="w-full rounded-xl border border-slate-600 bg-slate-950/70 px-3 py-2 text-sm outline-none focus:border-sky-400"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    className="w-full rounded-xl border border-slate-600 bg-slate-950/70 px-3 py-2 text-sm outline-none focus:border-sky-400"
+                    placeholder="you@example.com"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                    Who is this for?
+                  </label>
+                  <textarea
+                    className="w-full rounded-xl border border-slate-600 bg-slate-950/70 px-3 py-2 text-sm outline-none focus:border-sky-400 min-h-[90px]"
+                    placeholder="Example: My 78-year-old dad who wants help learning AI for daily life."
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center rounded-xl bg-sky-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-500/30 hover:bg-sky-400 transition"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+
+            <div className="space-y-3 text-sm text-slate-200">
+              <h3 className="font-semibold text-lg">Contact details</h3>
+              <p>
+                📧 Email:{" "}
+                <a
+                  href="mailto:Wilfried.lefebvre@gmail.com"
+                  className="text-sky-300 underline decoration-sky-500/60 underline-offset-2"
+                >
+                  Wilfried.lefebvre@gmail.com
+                </a>
+              </p>
+              <p>📍 In-Person Area: Aliso Viejo, California</p>
+              <p className="text-slate-400 text-xs">
+                I teach seniors and beginners directly at their home or community center
+                in Aliso Viejo.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  );
+}
