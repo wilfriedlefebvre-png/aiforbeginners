@@ -9,7 +9,7 @@ export default function AIBeginnersPage() {
         style={{ 
           backgroundImage: 'url(/background.png)',
           backgroundSize: 'contain',
-          backgroundColor: '#0f172a'
+          backgroundColor: '#6B4423'
         }}
       />
       

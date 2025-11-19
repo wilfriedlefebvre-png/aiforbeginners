@@ -2,9 +2,9 @@ import React from "react";
 
 export default function AIForseniorsPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50 relative">
+    <main className="min-h-screen text-slate-50 relative" style={{ backgroundColor: '#6B4423' }}>
       {/* Background */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-amber-900/80 via-amber-950/80 to-amber-900/80" />
 
       <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-[radial-gradient(circle_at_top,_#38bdf8_0,_transparent_60%)] opacity-40" />
 
