@@ -5,8 +5,12 @@ export default function AIBeginnersPage() {
     <main className="min-h-screen text-slate-50 relative">
       {/* Background image */}
       <div 
-        className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/background.png)' }}
+        className="fixed inset-0 -z-10 bg-center bg-no-repeat"
+        style={{ 
+          backgroundImage: 'url(/background.png)',
+          backgroundSize: 'contain',
+          backgroundColor: '#0f172a'
+        }}
       />
       
       {/* Overlay for readability */}
