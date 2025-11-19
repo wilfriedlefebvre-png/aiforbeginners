@@ -2,13 +2,14 @@ import React from "react";
 
 export default function AIBeginnersPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50">
-      {/* Top gradient background */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900" />
+    <main className="min-h-screen text-slate-50 relative">
+      {/* Background image */}
+      <div 
+        className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/background.png)' }}
+      />
 
-      <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-[radial-gradient(circle_at_top,_#38bdf8_0,_transparent_60%)] opacity-40" />
-
-      <div className="max-w-6xl mx-auto px-4 py-10 sm:py-16">
+      <div className="max-w-6xl mx-auto px-4 py-10 sm:py-16 relative z-10">
         {/* HERO */}
         <section className="grid gap-10 lg:grid-cols-[3fr,2fr] items-center">
           <div>
@@ -353,10 +354,10 @@ export default function AIBeginnersPage() {
               <p>
                 📧 Email:{" "}
                 <a
-                  href="mailto:youremail@example.com"
+                  href="mailto:Wilfried.lefebvre@gmail.com"
                   className="text-sky-300 underline decoration-sky-500/60 underline-offset-2"
                 >
-                  youremail@example.com
+                  Wilfried.lefebvre@gmail.com
                 </a>
               </p>
               <p>📍 In-Person Area: Aliso Viejo, California</p>
