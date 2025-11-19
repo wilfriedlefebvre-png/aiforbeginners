@@ -239,11 +239,11 @@ export default function AIBeginnersPage() {
             <ul className="space-y-3 text-sm text-slate-100">
               <li className="flex justify-between gap-4">
                 <span>1-on-1 Senior Session (60 min)</span>
-                <span className="font-semibold">$60</span>
+                <span className="font-semibold">$120</span>
               </li>
               <li className="flex justify-between gap-4">
                 <span>3-Session Beginner Pack</span>
-                <span className="font-semibold">$150</span>
+                <span className="font-semibold">$300</span>
               </li>
               <li className="flex justify-between gap-4">
                 <span>Retirement Community Workshop (Aliso Viejo area)</span>
